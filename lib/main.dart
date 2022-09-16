@@ -14,11 +14,10 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Hello'),
-        ),
-        body: const Text('Hello'),
-      ),
+          appBar: AppBar(
+            title: const Text('Hello'),
+          ),
+          body: const Text('Hello')),
     );
   }
 }
